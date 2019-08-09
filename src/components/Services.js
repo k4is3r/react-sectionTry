@@ -1,7 +1,12 @@
 import React, { Component } from "react";
+import Title from "../components/Title";
 
 export default class Services extends Component {
   render() {
-    return <div>Hello From services</div>;
+    return (
+      <div>
+        <Title title="Services" />
+      </div>
+    );
   }
 }

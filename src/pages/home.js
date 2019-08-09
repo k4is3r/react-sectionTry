@@ -2,9 +2,13 @@ import React from "react";
 import Hero from "../components/Hero";
 import Banner from "../components/Banner";
 import { Link } from "react-router-dom";
+import Services from "../components/Services";
+
 
 const home = () => {
   return (
+    //reactFragment 
+    <>
     <Hero>
       <Banner
         title="Luxurious and confortable rooms"
@@ -15,6 +19,8 @@ const home = () => {
         </Link>
       </Banner>
     </Hero>
+    <Services/>
+    </>
   );
 };
 
